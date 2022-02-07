@@ -1,3 +1,14 @@
+"""
+Code for Processing Emissions Data by Derek Hofland
+Written on 2022/01/28; Last updated on 2022/01/30
+
+OWID (Our World In Data) has CO2 emissions data for countries, regions,
+and territories of the world broken down by year. After downloading the
+data and cleaning it up a bit in Google Sheets, I wrote the following
+code to process the data into a format that would be easy to use for a
+Tableau project that I was working on.
+"""
+
 #import and parse the emissions file from OWID
 emissions = open("OWID_cleaned_co2_data.csv")
 emissions = emissions.read()
