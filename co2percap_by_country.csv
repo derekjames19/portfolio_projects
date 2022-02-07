@@ -1,3 +1,8 @@
+"""
+This file contains the output information from the file
+co2percap_by_country.py.
+"""
+
 ISO Code,Year,Country,Continent,CO2,Population,CO2 Per Capita
 AFG,1949,Afghanistan,Asia,15000,7624058,0.002
 AFG,1950,Afghanistan,Asia,84000,7752117,0.011
